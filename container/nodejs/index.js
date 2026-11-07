@@ -15,8 +15,8 @@ const { WebSocket, createWebSocketStream } = require('ws');
 const subtxt = `${process.env.HOME}/agsbx/jh.txt`;
 const NAME = process.env.NAME || os.hostname();
 const PORT = process.env.PORT || 3000;
-const uuid = process.env.uuid || '79411d85-b0dc-4cd2-b46c-01789a18c650';
-const DOMAIN = process.env.DOMAIN || 'YOUR.DOMAIN';
+const uuid = process.env.uuid || '4e07b87f-d5a2-48d1-87ed-9c26101c695b';
+const DOMAIN = process.env.DOMAIN || 'data.723207.xyz';
 const vlessInfo = `vless://${uuid}@${DOMAIN}:443?encryption=none&security=tls&sni=${DOMAIN}&fp=chrome&type=ws&host=${DOMAIN}&path=%2F#Vl-ws-tls-${NAME}`;
 console.log(`vless-ws-tls节点分享: ${vlessInfo}`);
 
